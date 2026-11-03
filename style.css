@@ -44,10 +44,10 @@ header.antet {
   display: flex;
   align-items: center;
   gap: 10px;
-}
 
-.logo img {
-  height: 30px;
+  img {
+    height: 30px;
+  }
 }
 
 .logo-text {
@@ -59,14 +59,14 @@ header.antet {
 .meniu {
   display: flex;
   gap: 26px;
-}
 
-.meniu a {
-  font-size: 14px;
-}
+  a {
+    font-size: 14px;
 
-.meniu a:hover {
-  color: #c41e3a;
+    &:hover {
+      color: #c41e3a;
+    }
+  }
 }
 
 .erou {
@@ -80,18 +80,18 @@ header.antet {
   flex-direction: column;
   justify-content: center;
   padding: 40px 30px 40px 32%;
-}
 
-.erou-text h1 {
-  font-size: 48px;
-  font-weight: 800;
-  line-height: 1.05;
-  margin-bottom: 16px;
-}
+  h1 {
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 1.05;
+    margin-bottom: 16px;
+  }
 
-.erou-text p {
-  font-size: 16px;
-  margin-bottom: 20px;
+  p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
 }
 
 .butoane {
@@ -105,17 +105,19 @@ header.antet {
   border-radius: 4px;
   font-size: 14px;
   font-weight: 700;
+
+  &:hover {
+    background-color: #b81b3a;
+  }
 }
 
-.buton:hover {
-  background-color: #b81b3a;
-}
-
-.erou-imagine img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+.erou-imagine {
+  img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
 }
 
 .probleme {
@@ -131,11 +133,11 @@ header.antet {
     flex-direction: column;
     gap: 60px;
   }
-}
 
-.probleme h2 {
-  font-size: 26px;
-  margin-bottom: 12px;
+  h2 {
+    font-size: 26px;
+    margin-bottom: 12px;
+  }
 }
 
 .carduri {
@@ -149,6 +151,17 @@ header.antet {
   border: 5px solid #1c1c1e;
   border-radius: 10px;
   overflow: hidden;
+
+  h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 56px;
+    padding: 0 8px;
+    color: #ffffff;
+    font-size: 16px;
+    text-align: center;
+  }
 }
 
 .card-rosu {
@@ -161,21 +174,10 @@ header.antet {
   align-items: center;
   height: 110px;
   background-color: #ffffff;
-}
 
-.card-imagine img {
-  height: 75px;
-}
-
-.card h3 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 56px;
-  padding: 0 8px;
-  color: #ffffff;
-  font-size: 16px;
-  text-align: center;
+  img {
+    height: 75px;
+  }
 }
 
 .cum-functioneaza {
@@ -189,11 +191,11 @@ header.antet {
     justify-content: center;
     align-items: center;
   }
-}
 
-.cum-functioneaza h2 {
-  font-size: 26px;
-  margin-bottom: 20px;
+  h2 {
+    font-size: 26px;
+    margin-bottom: 20px;
+  }
 }
 
 .pasi {
@@ -202,13 +204,15 @@ header.antet {
   gap: 30px;
 }
 
-.pas h3 {
-  font-size: 28px;
-  font-weight: 800;
-}
+.pas {
+  h3 {
+    font-size: 28px;
+    font-weight: 800;
+  }
 
-.pas p {
-  font-size: 15px;
+  p {
+    font-size: 15px;
+  }
 }
 
 section {
